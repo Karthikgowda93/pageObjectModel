@@ -14,7 +14,7 @@ public class LoginTest extends BaseTest{
 	public void loginTest(Hashtable<String, String> data) {
 		
 		System.out.println(">>>>>>>>>>>>>>>>>Excecuting the test cases<<<<<<<<<<<<<<<<");
-		// login to Zoho app page
+	
 		homePage hp = new homePage();
 		Loginpage lp = hp.clickLogin();
 		lp.doLogin(data.get("username"), data.get("password"));
