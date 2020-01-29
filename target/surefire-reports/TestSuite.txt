@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 47.154 s <<< FAILURE! - in TestSuite
+com.ka.testCases.LoginTest.loginTest  Time elapsed: 2.242 s  <<< FAILURE!
+java.lang.AssertionError: the Login Test Failed
+	at com.ka.testCases.LoginTest.loginTest(LoginTest.java:25)
+

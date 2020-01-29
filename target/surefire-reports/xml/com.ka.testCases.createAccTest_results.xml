@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create Acc Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.648">
+  <properties />
+  
+  
+            <testcase name="CreateAccTest" time="11.648" classname="com.ka.testCases.createAccTest" />
+      
+</testsuite>

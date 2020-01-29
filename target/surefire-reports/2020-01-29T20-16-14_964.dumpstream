@@ -1,0 +1,4 @@
+# Created at 2020-01-29T20:16:16.361
+Boot Manifest-JAR contains absolute paths in classpath 'K:\Projects\1st Project\pageObjectModel\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
