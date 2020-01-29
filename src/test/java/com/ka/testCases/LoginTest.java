@@ -2,13 +2,10 @@ package com.ka.testCases;
 
 import java.util.Hashtable;
 
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 
+import org.testng.annotations.Test;
 import com.ka.pages.Loginpage;
 import com.ka.pages.homePage;
-import com.ka.pages.zohoAppPage;
 import com.ka.utilities.Utilities;
 
 public class LoginTest extends BaseTest{
@@ -17,12 +14,12 @@ public class LoginTest extends BaseTest{
 	public void loginTest(Hashtable<String, String> data) {
 		
 		System.out.println(">>>>>>>>>>>>>>>>>Excecuting the test cases<<<<<<<<<<<<<<<<");
-		
+		// login to Zoho app page
 		homePage hp = new homePage();
 		Loginpage lp = hp.clickLogin();
 		lp.doLogin(data.get("username"), data.get("password"));
 		
-		Assert.fail("the Login Test Failed");
+		//Assert.fail("the Login Test Failed");
 		System.out.println(">>>>>>>>>>>>>>>>>test case Excecuted Successfully<<<<<<<<<<<<<<<<");
 	}
 	
